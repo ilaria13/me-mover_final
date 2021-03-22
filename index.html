@@ -11,6 +11,9 @@
   <body>
     <div class="full-width">
       <header>
+        <div>
+          <img class="logo" src="img/me-mover-logo_negative.png" alt="logotype negative"/>
+        </div>
         <div class="header-wrapper">
           <img class="social_icon" src="img/icon_facebook.svg" alt="facebook icon"/>
           <img class="social_icon" src="img/icon_linkedin.svg" alt="facebook icon"/>
@@ -19,18 +22,15 @@
       </header>
 
     <main>
-   <div class="logo">
-     <img src="img/me-mover-logo.png" alt="logotype">
-   </div>
     <section class="video_section">
     <video id="videoBg" poster="img/video_cover.jpeg" controls>
       <source src="img/me-mover_1minute.webm" type="video/mp4">
     </video>
+    <button class="play">play</button>
     </section>
+
     <div class="big_title"><h1>Become a Me-mover!</h1></div>
-    
     <section class="form_section">
-      
       <div class="form">
   <h2>Schedule your first free trial today!</h2>
   <form name="contact" method="POST" data-netlify="true" autocomplete="on">
@@ -65,17 +65,24 @@
       <input
         id="input_datetime"
         type="datetime-local"
-        placeholder="dd/mm/yyyy, --:--"
+        placeholder="xxx"
         name="data_time"
         required
       />
     </p>
-    <button class="button_send">Send</button>
+    <button class="button_send"><p>SEND</p></button>
   </form>
-</div>
-<div class="expert_review">
-  <h3>expert name</h3>
-</div>
+      </div>
+      <article class="expert_review">
+        <img src="img/expert_portrait1.jpg" alt="expert1"/>
+        <h3>Name Surname</h3>
+        <p>Personal trainer</p>
+       </article>
+       <article class="expert_review">
+        <img src="img/expert_portrait2.jpg" alt="expert1"/>
+        <h3>Name Surname</h3>
+        <p>Former athlete</p>
+       </article>
 </section>
 
 
@@ -85,6 +92,6 @@
       <footer>
        <p>here goes footer</p>
       </footer>
-    
+    <script src="play.js"></script>
   </body>
 </html>

@@ -27,7 +27,6 @@ use the fonts in other ways in the font hierarchy etc. */
 }
 
 header,
-main,
 footer {
   max-width: 1500px;
   margin: 0 auto;
@@ -35,7 +34,6 @@ footer {
 }
 
 main {
-  padding: calc(2 * var(--white-space));
   background-color: var(--bg-color);
 }
 
@@ -113,10 +111,10 @@ h1 {
   color: var(--color-4);
 }
 
-.h2-sample {
+h2 {
   font-family: var(--secondary-font);
-  text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
+  margin-block-start: 0em;
 }
 
 h3 {
@@ -127,8 +125,8 @@ h3 {
   font-size: 0.9rem;
 }
 
-p.typography-sample {
-  font-size: 1rem;
+p {
+  font-size: 0.9rem;
   font-family: var(--secondary-font);
   line-height: 1.5;
   max-width: 960px;
@@ -145,14 +143,6 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.2s;
-}
-
-p[class*="font-details-"] {
-  margin-top: 0.5rem;
-  margin-bottom: calc(2 * var(--white-space));
-  font-size: 0.75rem;
-  font-family: var(--secondary-font);
-  color: #6f6f6f;
 }
 
 label {
@@ -175,7 +165,8 @@ textarea {
 }
 
 input:valid,
-textarea:valid {
+textarea:valid,
+#input_datetime:valid {
   border: 1px solid green;
 }
 input:invalid,
@@ -184,6 +175,10 @@ textarea:invalid {
 }
 
 input:placeholder-shown {
+  border: 1px solid transparent;
+}
+
+#input_datetime {
   border: none;
 }
 
