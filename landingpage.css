@@ -1,0 +1,69 @@
+.full-width {
+  background: var(--color-4);
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: calc(1 * var(--white-space));
+  padding-left: calc(1 * var(--white-space));
+}
+
+.social_icon {
+  padding-left: 1rem;
+  margin: 0%;
+  width: 40px;
+}
+
+.logo {
+  width: 15rem;
+  display: block;
+  margin: auto;
+  padding-bottom: calc(1 * var(--white-space));
+}
+#videoBg {
+  object-fit: cover; /*the video covers the entire space without being stretched*/
+  object-position: center; /*the video will be center even when cut, you can put also a percentage if you to want it center (ex: 20% will be 20% from the left corner)*/
+  width: 100%;
+  min-height: 400px; /*the video can't be smaller than this height*/
+  /*max-height: 680px;*/
+}
+
+.big_title {
+  text-align: center;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  margin: 0.5rem 0;
+}
+
+.form {
+  background: var(--color-5);
+  padding: calc(2 * var(--white-space));
+}
+
+.button_send {
+  width: 100%;
+  margin-top: calc(2 * var(--white-space));
+}
+
+@media (min-width: 800px) {
+  .form_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4rem;
+  }
+}
+
+/*
+  @media (min-width: 900px) {
+    .adjectives ul {
+      flex-direction: row;
+    }
+  }
+  */
