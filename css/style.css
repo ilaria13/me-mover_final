@@ -58,10 +58,10 @@ button:active {
 }
 
 button {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   border-radius: 3px;
   border: none;
   background: var(--link-color);
@@ -188,5 +188,7 @@ input:placeholder-shown {
 
 footer {
   font-family: var(--secondary-font);
+  color: var(--bg-color);
   text-transform: uppercase;
+  background: var(--color-4);
 }

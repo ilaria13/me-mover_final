@@ -129,6 +129,18 @@ article > h3 {
   padding-top: calc(2 * var(--white-space));
 }
 
+.button_journal > * {
+  display: grid;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+
+.button_journal > button {
+  align-self: center;
+  justify-self: center;
+  margin: calc(2 * var(--white-space));
+}
+
 .pulse {
   animation-name: pulsing;
   animation-duration: 0.5s;
