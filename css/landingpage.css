@@ -26,7 +26,8 @@
 
 ul {
   list-style: none;
-  padding: 0px;
+  padding-top: calc(1.5 * var(--white-space));
+  padding-bottom: calc(2 * var(--white-space));
   margin: 0px;
   display: flex;
   flex-direction: row;
@@ -38,7 +39,6 @@ li {
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  padding-bottom: 1em;
 }
 
 #videoBg {
@@ -129,15 +129,13 @@ article > h3 {
   padding-top: calc(2 * var(--white-space));
 }
 
-.button_journal > * {
-  display: grid;
-  grid-row: 1/-1;
-  grid-column: 1/-1;
+.button_journal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .button_journal > button {
-  align-self: center;
-  justify-self: center;
   margin: calc(2 * var(--white-space));
 }
 

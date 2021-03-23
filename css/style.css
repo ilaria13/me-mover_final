@@ -45,9 +45,7 @@ main {
 button {
   transition: all 3s;
 }
-a {
-  transition: all 3s;
-}
+
 button:hover {
   background-color: var(--link-hover-color);
   transform: scale(1.02);
@@ -86,10 +84,6 @@ button:focus-within {
   border: none;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  font-size: 1.1rem;
-}
 html {
   font-size: 100%;
   font-family: var(--primary-font);
@@ -146,7 +140,11 @@ a {
   color: var(--link-color);
   text-transform: uppercase;
   text-decoration: none;
-  transition: all 0.2s;
+  padding: calc(1 * var(--white-space));
+}
+
+a:hover {
+  color: var(--link-hover-color);
 }
 
 label {
@@ -187,8 +185,9 @@ input:placeholder-shown {
 }
 
 footer {
+  padding: calc(2 * var(--white-space));
+  text-align: center;
   font-family: var(--secondary-font);
   color: var(--bg-color);
-  text-transform: uppercase;
   background: var(--color-4);
 }
