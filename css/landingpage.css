@@ -108,9 +108,25 @@ li {
   padding-top: calc(2 * var(--white-space));
 }
 
+.journal > h1 {
+  text-align: center;
+  border-bottom: solid 1px black;
+  padding: calc(2 * var(--white-space));
+  margin: 0;
+}
+
 .banner_article {
   margin: 0;
   padding: calc(2 * var(--white-space));
+  border-bottom: solid 1px black;
+}
+
+.banner_article > article {
+  padding-right: calc(2 * var(--white-space));
+}
+
+article > h3 {
+  padding-top: calc(2 * var(--white-space));
 }
 
 .pulse {
