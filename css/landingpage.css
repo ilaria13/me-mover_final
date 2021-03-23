@@ -24,9 +24,21 @@
   padding-bottom: calc(1.5 * var(--white-space));
 }
 
-.video_section {
-  padding-right: calc(0 * var(--white-space));
-  padding-left: calc(0 * var(--white-space));
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
 
 #videoBg {
@@ -34,26 +46,30 @@
   object-position: center; /*the video will be center even when cut, you can put also a percentage if you to want it center (ex: 20% will be 20% from the left corner)*/
   width: 100%;
   min-height: 400px; /*the video can't be smaller than this height*/
-  max-height: 650px;
+  max-height: 700px;
+}
+
+.video_section {
+  display: grid;
+}
+
+.video_section > * {
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+
+.video_section > img {
+  align-self: center;
+  justify-self: center;
 }
 
 .play_button {
-  position: absolute;
-  top: 25vw;
-  left: 30vw;
+  width: 20em;
 }
 
 .big_title {
   text-align: center;
 }
-
-/*.section-heading {
-  text-transform: uppercase;
-  font-family: var(--secondary-font);
-  font-size: 1rem;
-  color: rgb(0, 0, 0);
-  margin: 0.5rem 0;
-}*/
 
 .form {
   background: var(--color-5);
@@ -64,8 +80,7 @@
   padding-bottom: calc(1 * var(--white-space));
 }
 
-.expert_review p,
-h3 {
+.expert_review > * {
   text-align: center;
   margin-bottom: 0;
   margin-top: calc(0.5 * var(--white-space));
@@ -82,21 +97,20 @@ h3 {
 }
 
 .banner_event {
-  margin: 0;
-  background-color: var(--link-hover-color);
-  padding: calc(0 * var(--white-space));
+  background-color: var(--color-5);
+  padding: calc(2 * var(--white-space));
+}
+.banner_event > * {
+  text-align: center;
 }
 
-.banner_event h1,
-h2,
-h3 {
-  text-align: center;
+.banner_event > img {
+  padding-top: calc(2 * var(--white-space));
 }
 
 .banner_article {
   margin: 0;
-  padding: calc(4 * var(--white-space));
-  background-color: var(--color-5);
+  padding: calc(2 * var(--white-space));
 }
 
 .pulse {

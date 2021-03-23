@@ -1,1 +1,14 @@
-<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" width="142.2mm" height="50.85mm" viewBox="0 0 403.09 144.14"><defs><style>.cls-1{fill:#1d1d1b;}</style></defs><path class="cls-1" d="M26.49,21.14H59.6c18.18,0,29.31,3.52,36.63,10.85C101.45,37.2,104,44.1,104,51.85,104,76.51,85.38,93,54.1,93H40.16L33,119.77H0ZM52.41,69.46c12.54,0,18.32-5.63,18.32-13.1a8.24,8.24,0,0,0-2.4-5.78c-2.25-2.25-6.19-3.1-9.86-3.1h-6.2l-5.77,22Z"/><path class="cls-1" d="M120.68,21.14h33L134.77,91.59h44.95l-7.61,28.18H94.19Z"/><path class="cls-1" d="M241.66,20.43h32.69l14.93,99.34H254.2l-1.69-13.25H218l-8.6,13.25H173.46Zm9,62.7L248,59.18,232.64,83.13Z"/><path class="cls-1" d="M315,82.15l-19.31-61h34.66l8,33,25.64-33h39L347,86.23l-9,33.54H305Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 403.1 144.1" style="enable-background:new 0 0 403.1 144.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M26.5,21.1h33.1c18.2,0,29.3,3.5,36.6,10.8c5.2,5.2,7.8,12.1,7.8,19.9C104,76.5,85.4,93,54.1,93H40.2L33,119.8
+	H0L26.5,21.1z M52.4,69.5c12.5,0,18.3-5.6,18.3-13.1c0-2.2-0.9-4.2-2.4-5.8c-2.2-2.2-6.2-3.1-9.9-3.1h-6.2l-5.8,22L52.4,69.5z"/>
+<path class="st0" d="M120.7,21.1h33l-18.9,70.4h44.9l-7.6,28.2H94.2L120.7,21.1z"/>
+<path class="st0" d="M241.7,20.4h32.7l14.9,99.3h-35.1l-1.7-13.2H218l-8.6,13.2h-35.9L241.7,20.4z M250.7,83.1L248,59.2l-15.4,23.9
+	L250.7,83.1z"/>
+<path class="st0" d="M315,82.2l-19.3-61h34.7l8,33l25.6-33h39l-56,65.1l-9,33.5h-33L315,82.2z"/>
+</svg>

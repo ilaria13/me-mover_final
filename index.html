@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Style Tiles with CSS</title>
-    <link rel="stylesheet" href="css/landingpage.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/landingpage.css" />
+    
   </head>
 
   <body>
@@ -20,77 +21,80 @@
 
     <main>
       <div>
-        <img class="logo" src="img/me-mover-logo.png" alt="logotype negative"/>
+        <img class="logo" src="img/me-mover-logo.svg" alt="logotype negative"/>
       </div>
+      <ul>
+        <li><h3>SIGN UP</h3></li>
+        <li><h3>NEWS</h3></li>
+        <li><h3>JOURNAL</h3></li>
+      </ul>
+      <!-- video start-->
     <section class="video_section">
-    <video id="videoBg" poster="img/video_cover.jpeg" controls>
+    <video id="videoBg" poster="img/video_cover.webp" controls>
       <source src="img/me-mover_1minute.webm" type="video/mp4">
     </video>
     <img class="play_button pulse" src="img/play-button-01.svg">
     </section>
-
+<!-- form section-->
     <div class="big_title"><h1>Become a Me-mover!</h1></div>
     <section class="form_section">
       <div class="form">
-  <h2>Schedule your first free trial today!</h2>
-  <form name="contact" method="POST" data-netlify="true" autocomplete="on">
-    <p>
-      <label for="input_name"> Name* </label>
-      <input
-        id="input_name"
-        type="text"
-        name="name"
-        placeholder="Firstname Lastname"
-        required
-      />
-    </p>
-    <p>
-      <label for="input_email">E-mail*</label>
-      <input
-        id="input_email"
-        type="email"
-        name="email"
-        placeholder="name@mail.com"
-        required
-      />
-    </p>
+         <h2>Schedule your first free trial today!</h2>
+          <form name="contact" method="POST" data-netlify="true" autocomplete="on">
+           <p>
+             <label for="input_name"> Name* </label>
+             <input
+               id="input_name"
+               type="text"
+               name="name"
+               placeholder="Jan Larsen"
+              required/>
+          </p>
+           <p>
+             <label for="input_email">E-mail*</label>
+             <input
+               id="input_email"
+               type="email"
+               name="email"
+               placeholder="jan@mail.com"
+               required/>
+          </p>
+           <p>
+             <label for="input_phone">Phone Number*</label>
+             <input id="input_phone" type="tel" placeholder="+45 12345678" />
+           </p>
 
-    <p>
-      <label for="input_phone">Phone Number*</label>
-      <input id="input_phone" type="tel" placeholder="(999) 999-9999" />
-    </p>
-
-    <p>
-      <label for="input_datetime">Date and hour*</label>
-      <input
-        id="input_datetime"
-        type="datetime-local"
-        placeholder="xxx"
-        name="data_time"
-        required
-      />
-    </p>
-    <button class="button_send"><p>SEND</p></button>
-  </form>
+          <p>
+           <label for="input_datetime">Date and hour*</label>
+           <input
+            id="input_datetime"
+           type="datetime-local"
+            placeholder="13/05/2021, 12:30"
+            name="data_time"
+            required/>
+         </p>
+         <button class="button_send"><p>SEND</p></button>
+        </form>
       </div>
-      <article class="expert_review">
-        <img src="img/expert_portrait1.jpg" alt="expert1"/>
-        <h3>Name Surname</h3>
-        <p>Personal trainer</p>
+       <article class="expert_review">
+         <img src="img/expert_portrait1.webp" alt="expert1"/>
+          <h3>Charlotte Hansen, personal trainer</h3>
+          <p>See the interview</p>
        </article>
        <article class="expert_review">
-        <img src="img/expert_portrait2.jpg" alt="expert1"/>
-        <h3>Name Surname</h3>
-        <p>Former athlete</p>
+         <img src="img/expert_portrait2.webp" alt="expert1"/>
+          <h3>Lars Jørgensen, former athlete</h3>
+          <p>See the interview</p>
        </article>
-</section>
+    </section>
  <!-- end form and expert-->
 
  <div class="banner_event">
-  <img src="img/banner_event.jpg" alt="banner event">
-   <!--<h1>A 10 km challenge in support of Wolrd Health Organization</h1>-->
-   <h3>discover more</h3>
-   
+  <h1>10 Stops 10 km</h1>
+  <p><em>25th April 2021</em></p>
+  <p>Discover 10 amazing spots around Copenhagen with your fellows.<br>10 stops 10km is an event in support of Wolrd Health Organization.</p>
+  <img src="img/banner_event.gif" alt="banner event">
+  
    
  </div>
      
