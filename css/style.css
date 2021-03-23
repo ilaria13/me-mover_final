@@ -30,7 +30,7 @@ header,
 footer {
   max-width: 1500px;
   margin: 0 auto;
-  padding: calc(1 * var(--white-space));
+  padding: calc(0.5 * var(--white-space));
 }
 
 main {
@@ -53,8 +53,8 @@ button:active {
 }
 
 button {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 3px;

@@ -3,36 +3,44 @@
   width: 100%;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
 .header-wrapper {
   display: flex;
   flex-direction: row-reverse;
-  padding-right: calc(1 * var(--white-space));
-  padding-left: calc(1 * var(--white-space));
+  padding-right: calc(0.3 * var(--white-space));
+  padding-left: calc(0 * var(--white-space));
 }
 
 .social_icon {
   padding-left: 1rem;
   margin: 0%;
-  width: 40px;
+  width: 38px;
 }
 
 .logo {
-  width: 15rem;
+  width: 13rem;
   display: block;
   margin: auto;
-  padding-bottom: calc(1 * var(--white-space));
+  padding-top: calc(1.5 * var(--white-space));
+  padding-bottom: calc(1.5 * var(--white-space));
 }
+
+.video_section {
+  padding-right: calc(0 * var(--white-space));
+  padding-left: calc(0 * var(--white-space));
+}
+
 #videoBg {
   object-fit: cover; /*the video covers the entire space without being stretched*/
   object-position: center; /*the video will be center even when cut, you can put also a percentage if you to want it center (ex: 20% will be 20% from the left corner)*/
   width: 100%;
   min-height: 400px; /*the video can't be smaller than this height*/
   max-height: 650px;
+}
+
+.play_button {
+  position: absolute;
+  top: 25vw;
+  left: 30vw;
 }
 
 .big_title {
@@ -73,6 +81,40 @@ h3 {
   margin-bottom: 0;
 }
 
+.banner_event {
+  margin: 0;
+  background-color: var(--link-hover-color);
+  padding: calc(0 * var(--white-space));
+}
+
+.banner_event h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.banner_article {
+  margin: 0;
+  padding: calc(4 * var(--white-space));
+  background-color: var(--color-5);
+}
+
+.pulse {
+  animation-name: pulsing;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pulsing {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
 .hidden {
   display: none;
 }
@@ -84,6 +126,11 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 4rem;
   }
+  .banner_article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+  }
 }
 
 @media (max-width: 799px) {
@@ -92,5 +139,10 @@ h3 {
     display: flex;
     flex-direction: column;
     row-gap: 4rem;
+  }
+  .banner_article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
   }
 }
