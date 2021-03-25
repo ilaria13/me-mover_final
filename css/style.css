@@ -33,9 +33,7 @@ body {
 
 header,
 footer {
-  max-width: 1500px;
   margin: 0 auto;
-  padding: calc(0.5 * var(--white-space));
 }
 
 main {
