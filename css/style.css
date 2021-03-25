@@ -184,6 +184,7 @@ input:placeholder-shown {
 
 footer {
   padding-top: calc(2 * var(--white-space));
+  padding-bottom: calc(2 * var(--white-space));
   text-align: center;
   font-family: var(--secondary-font);
   color: var(--bg-color);
