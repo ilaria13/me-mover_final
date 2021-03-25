@@ -46,7 +46,7 @@ li {
   object-position: center; /*the video will be center even when cut, you can put also a percentage if you to want it center (ex: 20% will be 20% from the left corner)*/
   width: 100%;
   min-height: 400px; /*the video can't be smaller than this height*/
-  max-height: 700px;
+  /*max-height: 700px;*/
 }
 
 .video_section {
